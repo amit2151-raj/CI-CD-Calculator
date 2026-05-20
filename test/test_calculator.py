@@ -1,6 +1,6 @@
 from app.calculator import Add, subtract, multiply, divide
 
-def test_add():
+def test_Add():
     assert Add(2, 3) == 5
 
 def test_subtract():
